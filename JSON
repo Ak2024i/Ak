@@ -1,0 +1,7 @@
+fetch('data/mydata.json')
+  .then(response => response.json())
+  .then(data => {
+    console.log(data);
+    // 在这里处理加载的数据
+  })
+  .catch(error => console.error('Error loading data:', error));
