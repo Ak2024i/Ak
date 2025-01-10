@@ -1,4 +1,4 @@
-<button id="myButton">点击进入平台</button>
+<button id="myButton">点击我1</button>
 
 <script>	
   document.getElementById('myButton').addEventListener('click', function() {
